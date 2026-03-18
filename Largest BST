@@ -1,0 +1,43 @@
+class Solution {
+    
+    static class Info {
+        int min, max, size;
+        
+        Info(int min, int max, int size) {
+            this.min = min;
+            this.max = max;
+            this.size = size;
+        }
+    }
+    
+    static int maxSize = 0;
+    
+    static int largestBst(Node root) {
+        maxSize = 0;
+        solve(root);
+        return maxSize;
+    }
+    
+    static Info solve(Node node) {
+        if (node == null) {
+            return new Info(Integer.MAX_VALUE, Integer.MIN_VALUE, 0);
+        }
+        
+        Info left = solve(node.left);
+        Info right = solve(node.right);
+        
+        // Check BST condition
+        if (left.max < node.data && node.data < right.min) {
+            int size = left.size + right.size + 1;
+            maxSize = Math.max(maxSize, size);
+            
+            int min = Math.min(node.data, left.min);
+            int max = Math.max(node.data, right.max);
+            
+            return new Info(min, max, size);
+        }
+        
+        // Not BST
+        return new Info(Integer.MIN_VALUE, Integer.MAX_VALUE, 0);
+    }
+}
