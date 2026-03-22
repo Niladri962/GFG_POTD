@@ -1,0 +1,38 @@
+class Solution {
+    public int longestCycle(int V, int[][] edgesInput) {
+        
+        // convert to single outgoing edge format
+        int[] edges = new int[V];
+        for (int i = 0; i < V; i++) edges[i] = -1;
+
+        for (int[] e : edgesInput) {
+            edges[e[0]] = e[1];
+        }
+
+        boolean[] visited = new boolean[V];
+        int[] timeVisited = new int[V];
+
+        int maxCycle = -1;
+        int time = 1;
+
+        for (int i = 0; i < V; i++) {
+            if (visited[i]) continue;
+
+            int startTime = time;
+            int node = i;
+
+            while (node != -1 && !visited[node]) {
+                visited[node] = true;
+                timeVisited[node] = time++;
+                node = edges[node];
+            }
+
+            if (node != -1 && timeVisited[node] >= startTime) {
+                int cycleLength = time - timeVisited[node];
+                maxCycle = Math.max(maxCycle, cycleLength);
+            }
+        }
+
+        return maxCycle;
+    }
+}
