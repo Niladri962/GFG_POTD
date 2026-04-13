@@ -1,0 +1,57 @@
+class Solution {
+    static int[] nextPalindrome(int[] num) {
+        int n = num.length;
+        boolean allNine = true;
+        for (int x : num) {
+            if (x != 9) {
+                allNine = false;
+                break;
+            }
+        }
+
+        if (allNine) {
+            int[] res = new int[n + 1];
+            res[0] = 1;
+            res[n] = 1;
+            return res;
+        }
+
+        int[] result = num.clone();
+        for (int i = 0; i < n / 2; i++) {
+            result[n - i - 1] = result[i];
+        }
+        if (isGreater(result, num)) {
+            return result;
+        }
+        int carry = 1;
+        int mid = n / 2;
+
+        if (n % 2 == 1) {
+            result[mid] += carry;
+            carry = result[mid] / 10;
+            result[mid] %= 10;
+            mid--;
+        } else {
+            mid--;
+        }
+        while (mid >= 0 && carry > 0) {
+            result[mid] += carry;
+            carry = result[mid] / 10;
+            result[mid] %= 10;
+            mid--;
+        }
+        for (int i = 0; i < n / 2; i++) {
+            result[n - i - 1] = result[i];
+        }
+
+        return result;
+    }
+
+    static boolean isGreater(int[] a, int[] b) {
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] > b[i]) return true;
+            if (a[i] < b[i]) return false;
+        }
+        return false;
+    }
+}
