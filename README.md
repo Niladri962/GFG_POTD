@@ -1,4 +1,4 @@
-<div align="center">
+[<div align="center">
 
 <!-- GFG Header Banner -->
 <img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks"/>
@@ -128,3 +128,4 @@ If you find this repository helpful or inspiring, please consider giving it a тн
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=Niladri962.GFG_POTD)
 
 </div>
+](https://github.com/Niladri962/GFG_POTD)
