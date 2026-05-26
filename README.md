@@ -12,7 +12,7 @@
 
 <br/>
 
-[![Certificate](https://img.shields.io/badge/🎓%20View%20Certificate-2F8D46?style=for-the-badge)](https://github.com/Niladri962/GFG_POTD)
+[![Certificate](https://drive.google.com/file/d/13I9W0UNWDYAOYzo0edHR5caD3Tdvh7sy/view?usp=sharing)](https://github.com/Niladri962/GFG_POTD)
 [![Profile](https://img.shields.io/badge/GFG%20Profile-Niladri%20Ghosh-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/)
 [![GitHub](https://img.shields.io/badge/GitHub-Niladri962-181717?style=for-the-badge&logo=github)](https://github.com/Niladri962/GFG_POTD)
 
