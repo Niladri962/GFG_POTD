@@ -1,4 +1,4 @@
-[<div align="center">
+<div align="center">
 
 <!-- GFG Header Banner -->
 <img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks"/>
@@ -12,8 +12,8 @@
 
 <br/>
 
-[![Certificate](https://drive.google.com/file/d/13I9W0UNWDYAOYzo0edHR5caD3Tdvh7sy/view?usp=sharing)](https://github.com/Niladri962/GFG_POTD)
-[![Profile](https://img.shields.io/badge/GFG%20Profile-Niladri%20Ghosh-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/)
+[![Certificate](https://img.shields.io/badge/ðŸŽ“%20View%20Certificate-2F8D46?style=for-the-badge)](https://drive.google.com/file/d/13I9W0UNWDYAOYzo0edHR5caD3Tdvh7sy/view?usp=sharing)
+[![Profile](https://img.shields.io/badge/GFG%20Profile-Niladri%20Ghosh-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/gniladri)
 [![GitHub](https://img.shields.io/badge/GitHub-Niladri962-181717?style=for-the-badge&logo=github)](https://github.com/Niladri962/GFG_POTD)
 
 </div>
@@ -128,4 +128,3 @@ If you find this repository helpful or inspiring, please consider giving it a â­
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=Niladri962.GFG_POTD)
 
 </div>
-](https://github.com/Niladri962/GFG_POTD)
