@@ -65,34 +65,13 @@ The challenge was hosted by **GeeksforGeeks** in collaboration with **NPCI (Nati
 
 ---
 
-## 📁 Repository Structure
 
-```
-GFG_POTD/
-├── Day_01/
-│   ├── solution.cpp   (or .py / .java)
-│   └── README.md      # Problem statement + approach
-├── Day_02/
-│   ├── solution.cpp
-│   └── README.md
-├── ...
-└── Day_60/
-    ├── solution.cpp
-    └── README.md
-```
-
-> Each folder contains the problem solution along with a brief note on the approach used.
-
----
 
 ## 💡 How to Use
 
 ```bash
 # Clone this repository
 git clone https://github.com/Niladri962/GFG_POTD.git
-
-# Navigate to a specific day
-cd GFG_POTD/Day_01
 
 # Compile and run (C++ example)
 g++ solution.cpp -o solution && ./solution
